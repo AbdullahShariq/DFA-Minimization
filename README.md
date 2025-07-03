@@ -3,7 +3,7 @@
 ## Overview
 This project implements two distinct algorithms for minimizing Deterministic Finite Automata (DFA) using C++:
 1. **Myhill-Nerode Theorem Implementation** (`MyhillNerode.cpp`)
-2. **Partition Refinement Method** (`Partitioning Method.cpp`)
+2. **Partition Refinement Method** (`PartitioningMethod.cpp`)
 
 Both programs take a DFA as input, defined by a set of states, transitions, and accepting states, and output a minimized DFA with the smallest possible number of states while preserving the language recognized by the original DFA.
 
@@ -40,7 +40,7 @@ Both programs take a DFA as input, defined by a set of states, transitions, and 
 3. Compile the source files using:
    ```bash
    g++ -o MyhillNerode MyhillNerode.cpp
-   g++ -o PartitioningMethod "Partitioning Method.cpp"
+   g++ -o PartitioningMethod PartitioningMethod.cpp
    ```
 
 ---
